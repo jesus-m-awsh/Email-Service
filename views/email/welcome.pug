@@ -1,0 +1,18 @@
+extends baseEmail
+
+block content
+  p!= title
+  div!= message
+
+  table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    tbody
+      tr
+        td(align='left')
+          table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+            tbody
+              tr
+                td
+  //-                 a(href='https://studio73pty.com')
+  //-                   img(src='https://studio73pty.com/images/logo-inverse-128x61.png' alt='Logo')
+  //- p Si necesita ayuda para resolver alguna duda, no dude en ponerse en contacto con nosotros!
+  //- p - Equipo de Studio73.
